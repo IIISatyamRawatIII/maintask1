@@ -5,7 +5,7 @@ import CreateIcon from "@material-ui/icons/Create";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import WatchLaterIcon from "@material-ui/icons/WatchLater";
 import GroupAddIcon from "@material-ui/icons/GroupAdd";
-import StudentProgress from "../StudentProgress/Progress";
+import StudentProgress from "../Progress/Progress";
 
 function StudentCard() {
   return (

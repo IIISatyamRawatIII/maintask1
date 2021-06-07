@@ -1,4 +1,4 @@
-import StudentCard from "./Components/StudentCard/Card";
+import StudentCard from "./Components/Card/Card";
 import "./App.css";
 
 function App() {
