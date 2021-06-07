@@ -10,7 +10,6 @@ import StudentProgress from "../Progress/Progress";
 function StudentCard() {
   return (
     <div className="card">
-      {/* 10marks */}
       <div className="first">
         <div className="batch">
           <p>Batch Name | PHY_B1</p>
@@ -64,8 +63,6 @@ function StudentCard() {
           </Button>
         </div>
       </div>
-
-      {/* 50marks */}
       <div>
         <StudentProgress />
       </div>
