@@ -9,12 +9,12 @@
     padding-top: 13px;
   }
   
-  .progress__attendance {
+  .attendance {
     width: 86.62px;
     height: 86.62px;
   }
   
-  .progress__info {
+  .info {
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
@@ -27,7 +27,7 @@
     margin-top: 10px;
   }
   
-  .progress__heading {
+  .heading {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -40,16 +40,16 @@
     padding-bottom: 15px;
   }
   
-  .progress__tests {
+  .tests {
     width: 86.62px;
     height: 86.62px;
   }
   
-  .progress__stars {
+  .stars {
     margin-top: 25px;
   }
   
-  .progress__rating {
+  .rating {
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;

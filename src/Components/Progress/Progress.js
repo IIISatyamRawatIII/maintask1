@@ -16,27 +16,27 @@ function StudentProgress() {
   return (
     <div className="progress">
       {/* Attendance */}
-      <div className="progress__attendance">
-        <p className="progress__heading">Attendance</p>
+      <div className="attendance">
+        <p className="heading">Attendance</p>
         <CircularProgressbar value={percentage} text={`${percentage}%`} />
-        <p className="progress__info">
+        <p className="info">
           Last absence <br />
           12th May, 12:00 PM
         </p>
       </div>
 
-      <div className="progress__tests">
-        <p className="progress__heading">Tests</p>
+      <div className="tests">
+        <p className="heading">Tests</p>
         <CircularProgressbar value={percentage} text={`${percentage}%`} />
-        <p className="progress__info">
+        <p className="info">
           Last Test <br /> 100 %
         </p>
       </div>
 
-      <div className="progress__rating">
-        <p className="progress__heading">HW Rating</p>
+      <div className="rating">
+        <p className="heading">HW Rating</p>
 
-        <div className="progress__stars">
+        <div className="stars">
           <ReactStars
             value={4.1}
             count={5}
@@ -45,8 +45,8 @@ function StudentProgress() {
             isHalf={true}
             activeColor="#EFD75B"
           />
-          <p className="progress__rating">(4.1)</p>
-          <p className="progress__info">
+          <p className="rating">(4.1)</p>
+          <p className="info">
             Last Homework <br />
             4.5
           </p>
