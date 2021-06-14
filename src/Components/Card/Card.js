@@ -42,7 +42,6 @@ function StudentCard() {
               Upcoming {"<Activity>"} <br />
               Thu, 25th May <br />
             </span>
-            12:00 PM - 12:00 PM
           </p>
 
           <Button
