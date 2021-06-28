@@ -1,3 +1,10 @@
-*{
-  margin: 0;
+.App{
+  display: grid;
+  place-items: center;
+  background-color: #dadbd3;
+}
+
+.app_body{
+  background-color: #ededed;
+  width: 100%;
 }
